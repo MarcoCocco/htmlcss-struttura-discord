@@ -4,3 +4,50 @@
     box-sizing: border-box;
 }
 
+/* NAVBAR */
+li {
+    list-style-type: none;
+}
+
+.links ul {
+    height: 70px;
+    width: 560px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+.links ul li {
+    height: 40px;
+    width: 70px;
+    background-color: violet;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    height: 70px;
+    background-color: rgba(10, 10, 201, 0.403);
+}
+
+nav .container {
+    min-width: 1000px;
+    height: 70px;
+    background-color: red;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo, .login {
+    height: 70px;
+    width: 110px;
+    background-color: blueviolet;
+}
+
+.links {
+    height: 70px;
+    width: 560px;
+    background-color: blueviolet;
+}
+/* /NAVBAR */
