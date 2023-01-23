@@ -54,3 +54,49 @@ nav .container {
     background-color: blueviolet;
 }
 /* /NAVBAR */
+
+/* HEADER */
+header {
+    height: 500px;
+    background-color: rgb(84, 84, 252);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header .header-container {
+    height: 300px;
+    width: 700px;
+    background-color: blue;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: space-around;
+    gap: 20px;
+}
+
+.title {
+    height: 50px;
+    width: 450px;
+    background-color: wheat;
+}
+
+.paragraph {
+    height: 80px;
+    width: 670px;
+    background-color: white;
+}
+
+.download-button {
+    height: 45px;
+    width: 175px;
+    background-color: blanchedalmond;
+}
+
+.browser-open-button {
+    height: 45px;
+    width: 255px;
+    background-color: rgb(41, 39, 39);
+}
+/* /HEADER */
+
