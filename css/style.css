@@ -100,3 +100,91 @@ header .header-container {
 }
 /* /HEADER */
 
+/* MAIN*/
+main .block {
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+main .block-final {
+    height: 1200px;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    gap: 70px;
+
+}
+
+main .one, .three {
+    background-color: white;
+}
+
+main .two, .block-final {
+    background-color: #f6f6f6;
+}
+
+.bo-image {
+    height: 370px;
+    width: 550px;
+    background-color: rgb(41, 39, 39);
+}
+
+.bo-text {
+    height: 370px;
+    width: 370px;
+    background-color: #f6f6f6;
+}
+
+.bt-text {
+    height: 370px;
+    width: 370px;
+    background-color: white;
+}
+
+.bt-image {
+    height: 370px;
+    width: 550px;
+    background-color: rgb(41, 39, 39);
+}
+
+.bth-image {
+    height: 370px;
+    width: 550px;
+    background-color: rgb(41, 39, 39);
+}
+
+.bth-text {
+    height: 370px;
+    width: 370px;
+    background-color: #f6f6f6;
+}
+
+.bf-text {
+    height: 130px;
+    width: 870px;
+    background-color: white;
+}
+
+.bf-image {
+    height: 500px;
+    width: 970px;
+    background-color: rgb(41, 39, 39);
+}
+
+.bf-text2 {
+    height: 55px;
+    width: 445px;
+    background-color: white;
+}
+
+.download-button2 {
+    height: 45px;
+    width: 175px;
+    background-color: #7289da;
+}
+/* /MAIN */
+
