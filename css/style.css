@@ -10,8 +10,8 @@ li {
 }
 
 .links ul {
-    height: 70px;
-    width: 560px;
+    height: 60px;
+    width: 700px;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -25,29 +25,32 @@ li {
 }
 
 nav {
-    display: flex;
-    justify-content: center;
+    min-width: 1300px;
     height: 70px;
     background-color: rgba(10, 10, 201, 0.403);
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 nav .container {
-    min-width: 1000px;
-    height: 70px;
+    min-width: 1300px;
+    height: 60px;
     background-color: red;
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
 .logo, .login {
-    height: 70px;
+    height: 60px;
     width: 110px;
     background-color: blueviolet;
 }
 
 .links {
-    height: 70px;
-    width: 560px;
+    height: 60px;
+    width: 700px;
     background-color: blueviolet;
 }
 /* /NAVBAR */
